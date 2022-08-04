@@ -1,0 +1,159 @@
+header {
+    height: 180px;
+
+    background-color: rgb(249, 170, 67);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 2px;
+
+
+}
+
+header h1 {
+    color: rgb(59, 9, 9);
+    transition: 0.7s ease;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+header h1:hover {
+   
+    transform: scale(1.1);
+    color: blanchedalmond;
+    box-shadow: 0 5px 25px rgba(1 1 1 /15%);
+    background-color: brown;
+
+}
+h1+small{
+    transition: 0.7s ease;
+}
+h1 +small:hover  {
+color:beige
+}
+#food-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: larger;
+    font-family: 'Kanit', sans-serif;
+    height:30px;
+    background-color: rgb(254, 204, 142);
+        
+}
+.menu{
+    transition: 0.7s ease;
+}
+
+.menu:hover{
+color:#fff
+}
+
+#carousel img {
+    height: 680px;
+    width: 500px;
+}
+.about-us{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 0px;
+    height: 0px;
+    
+}
+#car{
+        font-size: 64px;
+    }
+
+.font-name{
+    font-family: 'Uchen', serif;
+    display: flex;
+}
+.new-staff{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 40px;
+    font-family: 'Uchen', serif;
+    letter-spacing: 1px;
+    font-size: 30px;
+    transition: 0.7s ease;
+}
+ .new-staff:before{
+    content:"";
+    display: block;
+    width: 1000px;
+    height: 2px;
+    position:relative;
+    background:#000;
+    left:0;
+    margin-top:18px;
+}
+.new-staff:after{
+    content:"";
+    display: block;
+    width: 1000px;;
+    height: 2px;
+    position:relative;
+    background:#000;
+    right:0;
+    margin-top:18px;
+   
+}
+.new-staff:hover{
+transform: scale(1.1);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#best-products{
+    
+    display: flex;
+    justify-content: row;
+    padding-top:0px;
+    
+    font-family: 'Uchen', serif;
+ 
+    width: 100%;
+    height: 300px;
+
+
+}
+#best-products:before{
+    content:"";
+    display: block;
+    width: 1000px;
+    height: 2px;
+    position:relative;
+    background:#000;
+    left:0;
+    margin-top:18px;
+}
+#best-products:after{
+    content:"";
+    display: block;
+    width: 1000px;;
+    height: 2px;
+    position:relative;
+    background:#000;
+    right: 0;
+    margin-top:18px;
+}
